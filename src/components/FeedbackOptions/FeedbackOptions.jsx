@@ -15,7 +15,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
                   onLeaveFeedback(option);
                 }}
               >
-                Good
+                {option}
               </button>
             </li>
           );
